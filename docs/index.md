@@ -10,7 +10,7 @@ title: Project Overview
 
 <div class="stats"><div class="stat"><strong>18.5M</strong><span>Rental records</span></div><div class="stat"><strong>16</strong><span>Original columns</span></div><div class="stat"><strong>Jan–Jun</strong><span>2026 coverage</span></div></div>
 
-<div class="actions"><a class="button" href="https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/CDS303_Final_project_0.ipynb">View Project 0 notebook ↗</a><a class="button secondary" href="https://github.com/Oscarmvr-12/Seoul-Bike">GitHub repository ↗</a></div>
+<div class="actions"><a class="button" href="https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike_S_.ipynb">View Project 0 notebook ↗</a><a class="button secondary" href="https://github.com/Oscarmvr-12/Seoul-Bike">GitHub repository ↗</a></div>
 
 ## Initial research question
 
