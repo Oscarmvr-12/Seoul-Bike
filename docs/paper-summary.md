@@ -46,25 +46,6 @@ A clustering algorithm only returns arbitrary labels (0, 1, 2, …). The authors
 
 ## How classification characterizes the cluster labels
 
-Once clusters exist, their labels become the **target** of a supervised model. Both papers train the classifier on the **original** variables rather than the reduced components, so the explanation is in terms people understand. SHAP values from the classifier then show which original variables most strongly separate each cluster from the others, and the authors use the top variables to **name** each cluster. The trained model can also assign new observations to existing clusters.
 
-This step **characterizes** the clustering: it explains how the clusters differ. It is **not** independent proof that the clusters are real. The classifier's inputs are the same information the clusters were built from, so high accuracy mainly shows that the clusters are well separated and describable.
 
-## Case studies
-
-| | Paper 1 (framework) | Paper 2 (application) |
-|---|---|---|
-| Data | PISA 2018, Spanish students: random sample of 5,000; 80 variables | PISA 2022, all 30,800 Spanish students; 74 variables |
-| Preprocessing | Imputation; 444 records with >1/3 missing removed; outliers removed → 4,241 students | Imputation; **no** outlier removal (every student kept) |
-| Reduced to | 14 derived variables | 16 derived variables |
-| Clustering | k-means, agglomerative and Gaussian mixture compared → k-means, *k* = 6 | Weighted k-means (survey sample weights) → *k* = 7 |
-| Classifier | XGBoost; test accuracy 0.83 | XGBoost with SMOTE class balancing; test accuracy 0.86 |
-
-In paper 2, gender, test scores and educational expectations were **not** used to form clusters. They were examined afterwards, and the clusters still differed by up to about 90 points in average test performance. Socio-economic status and ICT availability at home were the most important factors separating the student profiles.
-
-## Relevance to our project
-
-- **Mostly numeric features.** Station-level features would be almost all numeric (shares, counts, medians), so MCA is likely unnecessary. With roughly ten features, dimensionality reduction may be optional; paper 1 notes that clustering can run directly on normalized variables.
-- **External variables for interpretation.** As paper 2 did with test scores, we can keep weather sensitivity and spatial context (such as distance to a subway station) out of the clustering and use them afterwards to interpret the clusters.
-- **Honest framing of classification.** We will present the classifier as describing our clusters, not as validating them.
 
