@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | escape }} · Seoul Bike</title>
+<meta name="description" content="{{ site.description | escape }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#content">Skip to content</a>
+<header class="site-header"><div class="header-inner">
+<a class="brand" href="{{ '/' | relative_url }}"><span class="brand-icon" aria-hidden="true">◎</span><span>SEOUL BIKE<small>TTAREUNGI RESEARCH</small></span></a>
+<nav aria-label="Main navigation">
+{% assign paths = '/,paper-summary.html,variables.html,supplementary-data.html' | split: ',' %}
+{% assign labels = 'Overview,Paper Summary,Variables,Supplementary Data' | split: ',' %}
+{% for path in paths %}<a href="{{ path | relative_url }}"{% if page.url == path or path == '/' and page.url == '/index.html' %} aria-current="page"{% endif %}>{{ labels[forloop.index0] }}</a>{% endfor %}
+</nav></div></header>
+<main id="content" class="page">
+<div class="eyebrow">CDS 303 · SCIENTIFIC DATA MINING <span>TEAM 8 / FINAL PROJECT</span></div>
+<article class="prose">{{ content }}</article>
+</main>
+<footer><div><strong>Seoul Bike</strong><p>Dae Yeong Mun &amp; Oscar Molina Romualdo<br>CDS 303 · Team 8 · January–June 2026 data</p></div><a href="https://github.com/Oscarmvr-12/Seoul-Bike">View repository ↗</a></footer>
+</body></html>
+

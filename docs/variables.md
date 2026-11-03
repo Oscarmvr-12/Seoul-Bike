@@ -65,3 +65,4 @@ Missing-value counts come from our [Project 0 notebook](https://github.com/Oscar
 ## Clustering vs. classification inputs
 
 The classification step uses the **cluster labels as its target**. Following the papers, its main inputs will be the same station features used for clustering, possibly plus contextual variables such as `dist_to_subway_m`. When classification reuses clustering variables, its accuracy and SHAP values **characterize** the clusters, showing which features separate them. They do **not** independently validate that the clusters exist.
+

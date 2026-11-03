@@ -1,3 +1,11 @@
-title: "Seoul-Bike: Explainable Cluster Analysis of Ttareungi Usage"
+title: "Seoul Bike | Ttareungi Research"
 description: "CDS 303 Final Project · Team 8 · Dae Yeong Mun & Oscar Molina Romualdo"
-theme: jekyll-theme-cayman
+url: "https://oscarmvr-12.github.io"
+baseurl: "/Seoul-Bike"
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+

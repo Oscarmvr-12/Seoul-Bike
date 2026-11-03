@@ -73,3 +73,4 @@ In paper 2, gender, test scores and educational expectations were **not** used t
 - **Mostly numeric features.** Station-level features would be almost all numeric (shares, counts, medians), so MCA is likely unnecessary. With roughly ten features, dimensionality reduction may be optional; paper 1 notes that clustering can run directly on normalized variables.
 - **External variables for interpretation.** As paper 2 did with test scores, we can keep weather sensitivity and spatial context (such as distance to a subway station) out of the clustering and use them afterwards to interpret the clusters.
 - **Honest framing of classification.** We will present the classifier as describing our clusters, not as validating them.
+
