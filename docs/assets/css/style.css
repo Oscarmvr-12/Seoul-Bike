@@ -1,5 +1,4 @@
 
-
 /* ---------- 1. Design tokens ---------- */
 :root {
   /* Colours (all text pairs meet WCAG AA contrast) */
@@ -217,10 +216,9 @@ nav a[aria-current] {
   margin-top: 6px;
 }
 
-/* Long URLs and code names (common in our source tables) wrap instead of overflowing */
+/* Long URLs in running text wrap instead of overflowing */
 .prose p,
-.prose li,
-td {
+.prose li {
   overflow-wrap: anywhere;
 }
 
@@ -388,6 +386,16 @@ th {
 
 td {
   background: var(--surface);
+  overflow-wrap: break-word;   /* break between words only, never mid-word */
+}
+
+/* Variable names stay on one line; only URLs (links) may break inside a word */
+td code {
+  white-space: nowrap;
+}
+
+td a {
+  overflow-wrap: anywhere;
 }
 
 tbody tr:nth-child(even) td {
