@@ -15,7 +15,6 @@ title: Project Overview
 
 > **What distinct usage profiles do Seoul's Ttareungi bike-share stations show in January–June 2026, and which characteristics best explain those profiles: time-of-day patterns, weekday/weekend balance, trip length, rider mix and sensitivity to weather?**
 
-*Proposed unit of analysis: the station (about 2,700–3,400 stations), with features aggregated from individual trips. The team is still confirming this choice. Alternatives considered: days (only 181 observations, so clusters would mostly reflect season and weather) and individual trips (18.5 million records with few descriptive features each, so clusters would be hard to explain).*
 
 ## Current dataset
 
