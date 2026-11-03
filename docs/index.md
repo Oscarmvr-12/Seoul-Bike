@@ -10,7 +10,7 @@ title: Project Overview
 
 <div class="stats"><div class="stat"><strong>18.5M</strong><span>Rental records</span></div><div class="stat"><strong>16</strong><span>Original columns</span></div><div class="stat"><strong>Jan–Jun</strong><span>2026 coverage</span></div></div>
 
-<div class="actions"><a class="button" href="https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike_S_.ipynb">View Project 0 notebook ↗</a><a class="button secondary" href="https://github.com/Oscarmvr-12/Seoul-Bike">GitHub repository ↗</a></div>
+<div class="actions"><a class="button" href="https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike-S_.ipynb">View Project 0 notebook ↗</a><a class="button secondary" href="https://github.com/Oscarmvr-12/Seoul-Bike">GitHub repository ↗</a></div>
 
 ## Initial research question
 
@@ -28,7 +28,7 @@ title: Project Overview
 - **Size:** 18,511,943 trip records × 16 columns
 - **Contents:** one row per rental. Each row records the bike ID; rental and return date-time; rental and return station (ID, number and name); dock numbers; trip duration (minutes); distance (metres); rider birth year; gender; and user type (domestic, foreign or non-member).
 
-The original column names are in Korean and are translated to English in our notebook. Missing values, data types and summary statistics are in the [Project 0 notebook](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/CDS303_Final_project_0.ipynb).
+The original column names are in Korean and are translated to English in our notebook. Missing values, data types and summary statistics are in the [Project 0 notebook](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike-S.ipynb).
 
 ---
 
@@ -41,7 +41,7 @@ The original column names are in Korean and are translated to English in our not
 <a class="section-card" href="supplementary-data.html"><small>04 / SUPPLEMENTARY DATA</small><strong>Additional context ↗</strong><span>Supplementary data sources and integration.</span></a>
 </div>
 
-**Supporting code:** [CDS303_Final_project_0.ipynb](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/CDS303_Final_project_0.ipynb) loads the full trip dataset and reports its first rows, shape, columns, data types, summary statistics and missing values.
+**Supporting code:** [Bike-S.ipynb](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike-S.ipynb) loads the full trip dataset and reports its first rows, shape, columns, data types, summary statistics and missing values.
 
 ---
 
