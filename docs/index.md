@@ -28,7 +28,7 @@ title: Project Overview
 - **Size:** 18,511,943 trip records × 16 columns
 - **Contents:** one row per rental. Each row records the bike ID; rental and return date-time; rental and return station (ID, number and name); dock numbers; trip duration (minutes); distance (metres); rider birth year; gender; and user type (domestic, foreign or non-member).
 
-The original column names are in Korean and are translated to English in our notebook. Missing values, data types and summary statistics are in the [Project notebook](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike-S.ipynb).
+The original column names are in Korean and are translated to English in our notebook. Missing values, data types and summary statistics are in the [Bike-S](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/notebooks/Bike-S.ipynb).
 
 ---
 
