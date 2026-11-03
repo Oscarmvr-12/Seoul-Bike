@@ -6,7 +6,7 @@ title: Paper Summary
 
 [← Back to project overview](./)
 
-## Assigned papers
+## Papers
 
 1. Alvarez-Garcia, M., Ibar-Alonso, R., & Arenas-Parra, M. (2024). A comprehensive framework for explainable cluster analysis. *Information Sciences, 663*, 120282. <https://doi.org/10.1016/j.ins.2024.120282>
 2. Alvarez-Garcia, M., Arenas-Parra, M., & Ibar-Alonso, R. (2024). Uncovering student profiles. An explainable cluster analysis approach to PISA 2022. *Computers & Education, 223*, 105166. <https://doi.org/10.1016/j.compedu.2024.105166>
