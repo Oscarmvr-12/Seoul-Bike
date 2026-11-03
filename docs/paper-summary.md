@@ -11,12 +11,6 @@ title: Paper Summary
 1. Alvarez-Garcia, M., Ibar-Alonso, R., & Arenas-Parra, M. (2024). A comprehensive framework for explainable cluster analysis. *Information Sciences, 663*, 120282. <https://doi.org/10.1016/j.ins.2024.120282>
 2. Alvarez-Garcia, M., Arenas-Parra, M., & Ibar-Alonso, R. (2024). Uncovering student profiles. An explainable cluster analysis approach to PISA 2022. *Computers & Education, 223*, 105166. <https://doi.org/10.1016/j.compedu.2024.105166>
 
-Paper 1 proposes the method. Paper 2, by the same authors, applies it to a new, larger dataset.
-
-## The problem
-
-Clustering is **unsupervised**. It groups similar observations, but it doesn't say what the groups mean, and its results depend on the quality of the input data. The authors argue that earlier explainable-clustering methods focused on interpretation alone, often ignored data-quality problems such as missing values, outliers, high dimensionality and mixed numeric/categorical data, and were usually tied to one specific algorithm. Paper 1 proposes a single end-to-end workflow and implements it in an open-source Python package, **Clust-learn** (<https://github.com/malgar/clust-learn>).
-
 ## The four-step framework
 
 **1. Data preprocessing: make the data trustworthy**
