@@ -15,4 +15,4 @@ An explainable cluster analysis of Seoul's public bike-share system (Ttareungi, 
 
 ## Data
 
-Raw data files are **not** stored in this repository. The main trip file is about 3.1 GB, which exceeds GitHub's file-size limit. Download links for every dataset are on the [Supplementary Data page](https://oscarmvr-12.github.io/Seoul-Bike/supplementary-data.html#data-sources). To run the notebooks, place the downloaded CSV files in the same folder as the notebook.
+Raw data files are **not** stored in this repository. The main trip file is about 3.1 GB, which exceeds GitHub's file-size limit. Download links for every dataset are on the [Supplementary Data page](https://github.com/Oscarmvr-12/Seoul-Bike/blob/main/docs/supplementary-data.md). To run the notebooks, place the downloaded CSV files in the same folder as the notebook.
