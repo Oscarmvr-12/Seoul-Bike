@@ -2,7 +2,7 @@
 
 CDS 303 (Scientific Data Mining) Final Project, Team 8: **Dae Yeong Mun** and **Oscar Molina Romualdo**.
 
-An explainable cluster analysis of Seoul's public bike-share system (Ttareungi, 따릉이), using trip-level rental history for January–June 2026.
+Patterns of Urban Mobility: Explainable Clustering of Seoul’s Bike-Share Stations, using trip-level rental history for January–June 2026.
 
 **Project website:** <https://oscarmvr-12.github.io/Seoul-Bike/>
 
