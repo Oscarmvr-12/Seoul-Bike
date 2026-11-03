@@ -45,7 +45,3 @@ The original column names are in Korean and are translated to English in our not
 
 ---
 
-## Future updates
-
-*Space reserved for later sessions (preprocessing, feature engineering, clustering, classification and interpretation).*
-
