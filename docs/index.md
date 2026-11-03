@@ -2,7 +2,7 @@
 title: Project Overview
 ---
 
-# Explainable Cluster Analysis of Seoul Bike-Share (Ttareungi) Usage
+# Patterns of Urban Mobility: Explainable Clustering of Seoul’s Bike-Share Stations
 
 **CDS 303: Scientific Data Mining · Final Project · Team 8**
 
