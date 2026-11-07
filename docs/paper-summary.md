@@ -37,15 +37,6 @@ title: Paper Summary
 - The pipeline uses an 80/20 train/test split, feature selection, and a cross-validated grid search for hyperparameters. XGBoost is the default model.
 - **SHAP values** show which variables push an observation toward each cluster: globally (across all clusters) and locally (for one cluster).
 
-## Why clusters need interpretation
-
-A clustering algorithm only returns arbitrary labels (0, 1, 2, …). The authors describe understanding and labelling clusters as the most important step, because it means putting results back into the context of the study. A statistically valid clustering is not useful until people can say *what kind* of observation each cluster contains. The papers interpret clusters in two complementary ways:
-
-- **Comparing cluster means with global means** for each variable, usually shown as a heatmap.
-- **Describing clusters with "external" variables** that were *not* used to form them.
-
-## How classification characterizes the cluster labels
-
 
 
 
